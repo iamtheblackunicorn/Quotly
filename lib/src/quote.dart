@@ -4,12 +4,13 @@
 
 import 'data.dart';
 import 'error.dart';
+import 'credits.dart';
 import 'loading.dart';
 import 'variables.dart';
 import 'package:flutter/material.dart';
 
 /// This widget handles the
-/// Statefulness of the [HOME]
+/// statefulness of the [HOME]
 /// widget.
 class Quote extends StatefulWidget {
   final APIHandler apiHandler;
@@ -21,7 +22,7 @@ class Quote extends StatefulWidget {
   QuoteState createState() => QuoteState();
 }
 
-/// This widget returns the actual
+/// This class returns the actual
 /// widget tree of the [HOME] widget.
 class QuoteState extends State<Quote> {
   Future<Map<String,dynamic>> quoteMap;
@@ -63,7 +64,16 @@ class QuoteState extends State<Quote> {
                   child: new FittedBox(
                     child: new Padding(
                       padding: EdgeInsets.all(stdPadding),
-                      child: new FloatingActionButton(
+                      child: new InkWell(
+                        onDoubleTap: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) => Credits()
+                            ),
+                          );
+                        },
+                        child:new FloatingActionButton(
                         backgroundColor: accentColor,
                         foregroundColor: mainColor,
                         child: Icon(
@@ -81,7 +91,7 @@ class QuoteState extends State<Quote> {
                             }
                           });
                         },
-                      )
+                      ))
                     )
                   )
                 )

@@ -21,8 +21,8 @@ I've been feeling down lately and as I was scrolling through some stupid social 
 ## Download :inbox_tray:
 
 - ***Horus*** (v.1.0.0):
-  - ***[Download for Android](https://github.com/iamtheblackunicorn/Quotly/releases/download/v.1.0.0/Quotly-v1.0.0-Horus-Release.apk) (17.7 MB)***
-  - ***[Download for Mac OSX](https://github.com/iamtheblackunicorn/Quotly/releases/download/v.1.0.0/Quotly-v1.0.0-Horus-Release.app.zip) (17.7 MB)***
+  - ***[Download for Android](https://github.com/iamtheblackunicorn/Quotly/releases/download/v.1.0.0/Quotly-v1.0.0-Horus-Release.apk) (17.4 MB)***
+  - ***[Download for Mac OSX](https://github.com/iamtheblackunicorn/Quotly/releases/download/v.1.0.0/Quotly-v1.0.0-Horus-Release.app.zip) (14.8 MB)***
 
 ## Building :hammer:
 

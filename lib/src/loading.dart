@@ -12,7 +12,6 @@ class Loading extends StatelessWidget {
   @override
   Widget build(BuildContext context){
     return  Scaffold(
-      backgroundColor: mainColor,
       body: new Container(
         decoration: new BoxDecoration(
           gradient: new LinearGradient(
@@ -32,13 +31,13 @@ class Loading extends StatelessWidget {
               ),
               new LoadingBouncingGrid.square(
                 size: iconSize,
-                backgroundColor: accentColor,
+                backgroundColor: mainColor,
               ),
               new Text(
                 loadingText,
                 textAlign: TextAlign.center,
                 style: TextStyle(
-                  color: accentColor,
+                  color: mainColor,
                   fontWeight: FontWeight.bold,
                   fontSize: fontSize,
                   fontFamily: defaultFont

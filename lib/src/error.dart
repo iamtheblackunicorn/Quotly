@@ -6,12 +6,11 @@ import 'variables.dart';
 import 'package:flutter/material.dart';
 
 /// This class return a static widget
-/// containing the loading screen.
+/// containing the error screen.
 class Error extends StatelessWidget {
   @override
   Widget build(BuildContext context){
     return  Scaffold(
-      backgroundColor: mainColor,
       body: new Container(
         decoration: new BoxDecoration(
           gradient: new LinearGradient(
@@ -31,14 +30,14 @@ class Error extends StatelessWidget {
               ),
               new Icon(
                 Icons.warning,
-                color: accentColor,
+                color: mainColor,
                 size: iconSize,
               ),
               new Text(
                 errorText,
                 textAlign: TextAlign.center,
                 style: TextStyle(
-                  color: accentColor,
+                  color: mainColor,
                   fontWeight: FontWeight.bold,
                   fontSize: fontSize,
                   fontFamily: defaultFont
