@@ -1,0 +1,21 @@
+name: quotly
+description: Inpsiring quotes.
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: ">=2.10.0 <3.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  dio: ^4.0.0
+  loading_animations: ^2.2.0
+  termstyle: ^1.7.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
+  fonts:
+   - family: PSB
+     fonts:
+       - asset: assets/fonts/PSB.ttf
