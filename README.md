@@ -1,16 +1,68 @@
-# quotly
+<p align="center">
+ <img src="https://github.com/iamtheblackunicorn/Quotly/raw/main/assets/images/banner.png"/>
+</p>
 
-A new Flutter project.
+# QUOTLY :eye:
 
-## Getting Started
+*Inspiring quotes for you!* :eye:
 
-This project is a starting point for a Flutter application.
+## About :books:
 
-A few resources to get you started if this is your first Flutter project:
+I've been feeling down lately and as I was scrolling through some stupid social media app, I found a page that had some quotes. I found the quotes inspiring and they lifted my mood. I thought I'd write an app to do that because why the hell not? This is that app!
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## Features :test_tube:
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Minimalist design.
+- Good quotes.
+- 100% open source!
+- Light-weight.
+- The app's icon is a work of art by me.
+
+## Download :inbox_tray:
+
+- ***Horus*** (v.1.0.0):
+  - ***[Download for Android](https://github.com/iamtheblackunicorn/Quotly/releases/download/v.1.0.0/Quotly-v1.0.0-Horus-Release.apk) (17.7 MB)***
+  - ***[Download for Mac OSX](https://github.com/iamtheblackunicorn/Quotly/releases/download/v.1.0.0/Quotly-v1.0.0-Horus-Release.app.zip) (17.7 MB)***
+
+## Building :hammer:
+
+Make sure that you have the following programmes installed:
+
+- Flutter SDK
+- Dart SDK
+- Android Studio
+- Android SDK
+- Java JDK
+- Xcode
+- Make
+- Git
+
+After you have installed these, run this command to generate a keystore for the app.
+
+```bash
+$ keytool -genkey -v -keystore key.jks -keyalg RSA -keysize 2048 -validity 10000 -alias key
+```
+
+After having done that, move the Java keystore to `android/app` and fill in the fields for the keystore password in the file `android/app/key.properties`.
+
+Finally, run these commands:
+
+```bash
+$ flutter pub get
+$ flutter build apk
+```
+
+You have now generated a release build of *Quotly*.
+
+## Changelog :black_nib:
+
+### Version 1.0.0: ***Horus***
+
+- upload to GitHub
+- initial release
+- speed and elegance
+
+## Note :scroll:
+
+- *Quotly :eye:* by Alexander Abraham :black_heart: a.k.a. *"The Black Unicorn" :unicorn:*
+- Licensed under the MIT license.

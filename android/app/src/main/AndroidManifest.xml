@@ -1,7 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.quotly">
+    package="com.blackunicorn.quotly">
+   <uses-permission android:name="android.permission.INTERNET"/>
    <application
-        android:label="quotly"
+        android:label="Quotly"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"

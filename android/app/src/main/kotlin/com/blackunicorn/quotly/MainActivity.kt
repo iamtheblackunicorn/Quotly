@@ -1,4 +1,4 @@
-package com.example.quotly
+package com.blackunicorn.quotly
 
 import io.flutter.embedding.android.FlutterActivity
 
