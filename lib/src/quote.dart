@@ -1,3 +1,7 @@
+/// Quotly by Alexander Abraham
+/// a.k.a. "The Black Unicorn".
+/// Licensed under the MIT license.
+
 import 'data.dart';
 import 'error.dart';
 import 'loading.dart';
@@ -84,37 +88,38 @@ class QuoteState extends State<Quote> {
               ),
               body: new Container(
                 decoration: new BoxDecoration(
-                gradient: new LinearGradient(
-                  colors: <Color> [
-                    gradientOne,
-                    gradientTwo
-                  ]
-                )
-              ),
-              width: MediaQuery.of(context).size.width,
-              height: MediaQuery.of(context).size.height,
-              child: new Center(
-                child: new Column(
-                  children: <Widget> [
-                    new SizedBox(
-                      height: specialPushDown
-                    ),
-                    new Padding(
-                      padding: EdgeInsets.all(stdPadding),
-                      child: new Text(
-                        '$quote',
-                        textAlign: TextAlign.center,
-                        style: new TextStyle(
-                          fontSize:  fontSize,
-                          fontFamily: defaultFont,
-                          color: mainColor
+                  gradient: new LinearGradient(
+                    colors: <Color> [
+                      gradientOne,
+                      gradientTwo
+                    ]
+                  )
+                ),
+                width: MediaQuery.of(context).size.width,
+                height: MediaQuery.of(context).size.height,
+                child: new Center(
+                  child: new Column(
+                    children: <Widget> [
+                      new SizedBox(
+                        height: specialPushDown
+                      ),
+                      new Padding(
+                        padding: EdgeInsets.all(stdPadding),
+                        child: new Text(
+                          '$quote',
+                          textAlign: TextAlign.center,
+                          style: new TextStyle(
+                            fontSize:  fontSize,
+                            fontFamily: defaultFont,
+                            color: mainColor
+                          )
                         )
                       )
-                    )
-                  ]
+                    ]
+                  )
                 )
               )
-            ));
+            );
           }
         }
       }

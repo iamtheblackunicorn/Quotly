@@ -1,6 +1,12 @@
+/// Quotly by Alexander Abraham
+/// a.k.a. "The Black Unicorn".
+/// Licensed under the MIT license.
+
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 
+/// These variables are
+/// Quotly's main variables.
 int initIndex = 0;
 Dio dio = new Dio();
 double fabSize = 100;
@@ -13,6 +19,8 @@ String defaultFont = 'PSB';
 String errorText = 'Error!';
 double specialPushDown = 250;
 String loadingText = 'Loading!';
+Color gradientOne = (0xFFFF66FF);
 Color mainColor = Color(0xFFFFFFFF);
+Color gradientTwo = Color(0xFFCC9900);
 Color accentColor = Color(0xFF000000);
 String quotesURL = 'https://blckunicorn.art/assets/quotly/quotes.json';

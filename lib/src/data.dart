@@ -1,6 +1,15 @@
+/// Quotly by Alexander Abraham
+/// a.k.a. "The Black Unicorn".
+/// Licensed under the MIT license.
+
 import 'variables.dart';
 import 'package:dio/dio.dart';
 
+/// This class fetches the JSON
+/// API from the [quotesURL]
+/// variable, defined in
+/// ["variables.dart"]
+/// and returns a [Future<Map<String,dynamic>>].
 class APIHandler {
   Future<Map<String, dynamic>> get responseData async {
     try {
