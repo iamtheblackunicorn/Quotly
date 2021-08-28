@@ -18,7 +18,7 @@ class Loading extends StatelessWidget {
               backgroundColor: accentColor,
             ),
             new Text(
-              errorText,
+              loadingText,
               textAlign: TextAlign.center,
               style: TextStyle(
                 color: accentColor,
