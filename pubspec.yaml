@@ -19,5 +19,3 @@ flutter:
    - family: PSB
      fonts:
        - asset: assets/fonts/PSB.ttf
-  assets:
-    - assets/images/icon.png

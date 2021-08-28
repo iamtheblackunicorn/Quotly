@@ -23,6 +23,9 @@ I've been feeling down lately and as I was scrolling through some stupid social 
 - ***Horus*** (v.1.0.0):
   - ***[Download for Android](https://github.com/iamtheblackunicorn/Quotly/releases/download/v.1.0.0/Quotly-v1.0.0-Horus-Release.apk) (17.4 MB)***
   - ***[Download for Mac OSX](https://github.com/iamtheblackunicorn/Quotly/releases/download/v.1.0.0/Quotly-v1.0.0-Horus-Release.app.zip) (14.8 MB)***
+- ***Horus-Hotfix-1*** (v.1.1.0):
+  - ***[Download for Android](https://github.com/iamtheblackunicorn/Quotly/releases/download/v.1.1.0/Quotly-v1.1.0-Horus-Hotfix-1-Release.apk) (16.3 MB)***
+  - ***[Download for Mac OSX](https://github.com/iamtheblackunicorn/Quotly/releases/download/v.1.1.0/Quotly-v1.1.0-Horus-Hotfix-1-Release.app.zip) (13.7 MB)***
 
 ## Building :hammer:
 
@@ -61,6 +64,11 @@ You have now generated a release build of *Quotly*.
 - upload to GitHub
 - initial release
 - speed and elegance
+
+### Version 1.1.0: ***Horus-Hotfix-1***
+
+- removed the easter egg
+- performance tweaks
 
 ## Note :scroll:
 
